@@ -1,0 +1,47 @@
+.nameIconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+    margin: 0 62px;
+}
+.componentNameContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.nameIconContainer:hover{
+    background-color: #E1E1E1;
+}
+.underLine{
+    border: 2px solid #E1E1E1;
+    height: 0;
+    width: 100vw
+}
+.links{
+    color: inherit;
+    text-decoration: none;
+}
+/* //mobileview */
+@media only screen and (max-width:768px){
+    .name{
+        display: none;
+    }
+    .myname{
+        display: none;
+    }
+}
+@media only screen and (min-width:769px)and  (max-width:1024px) {
+    .name {
+        display: none;
+    }
+
+}
