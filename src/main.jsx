@@ -2,6 +2,8 @@ import ReactDOM from "react-dom/client";
 import HeaderP from "./header/headerP.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import HomePageContent from "./components/homePage/HomePageContent.jsx";
+import SkillCarousel from "./components/homePage/SkillCarousel.jsx";
+import SkillP from "./components/skill/SkillP.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,10 +15,10 @@ const router = createBrowserRouter([
       </div>
     ),
   },
-  //   {
-  //     path: "/test",
-  //     element: <UcbParent />,
-  //   },
+  {
+    path: "/test",
+    element: <SkillP />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

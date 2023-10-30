@@ -1,7 +1,16 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import "./headerStyle.css";
-const HeaderP = ({}) => {
+import { useEffect, useState } from "react";
+const HeaderP = () => {
+  const [darkTheme, toggleDarkTheme] = useState(false);
+  useEffect(() => {
+    if (darkTheme) {
+      document.body.classList.add("darkTheme");
+    } else {
+      document.body.classList.remove("darkTheme");
+    }
+  }, [darkTheme]);
   return (
     <div>
       <div className="headerContainer">
@@ -49,11 +58,28 @@ const HeaderP = ({}) => {
             </div>
           </Link>
         </div>
-        <div className="nightModeicon nameIconContainer">
+        <div className="nightModeicon ">
           <div>
-            <span className="material-symbols-outlined">dark_mode</span>
+            {darkTheme ? (
+              <span
+                className="material-symbols-outlined"
+                onClick={() => {
+                  toggleDarkTheme(false);
+                }}
+              >
+                light_mode
+              </span>
+            ) : (
+              <span
+                className="material-symbols-outlined"
+                onClick={() => {
+                  toggleDarkTheme(true);
+                }}
+              >
+                dark_mode
+              </span>
+            )}
           </div>
-          <div></div>
         </div>
       </div>
       <div className="underLine"></div>

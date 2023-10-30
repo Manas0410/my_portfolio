@@ -20,6 +20,7 @@
 }
 .nameIconContainer:hover{
     background-color: #E1E1E1;
+    color: black;
 }
 .underLine{
     border: 2px solid #E1E1E1;
@@ -31,6 +32,13 @@
     text-decoration: none;
 }
 /* //mobileview */
+.darkTheme{
+    background-color: black;
+    color: white !important;
+}
+.nightModeicon{
+    cursor: pointer;
+}
 @media only screen and (max-width:768px){
     .name{
         display: none;

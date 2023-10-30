@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./homePageStyles.css";
+import SkillCarousel from "./SkillCarousel";
 const HomePageContent = () => {
   return (
     <div className="homeContainer">
@@ -51,7 +52,9 @@ const HomePageContent = () => {
           </Link>
         </div>
       </div>
-      <div className="rightsection"></div>
+      <div className="rightsection">
+        <SkillCarousel />
+      </div>
     </div>
   );
 };

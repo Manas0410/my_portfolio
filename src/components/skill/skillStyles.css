@@ -1,0 +1,24 @@
+.card{
+        height: 81px;
+            width: 430px;
+            border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: row;
+        overflow: hidden;
+}
+.skill{
+    flex: 6;
+        margin-left: 26px;
+}
+.skillImageContainer{
+    flex: 4;
+}
+.skillImage{
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}

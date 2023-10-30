@@ -18,6 +18,7 @@ h3.title {
 }
 .rightsection {
     flex: 4;
+    margin-bottom: 75px;
 }
 .leftSection {
     flex: 6;

@@ -1,0 +1,44 @@
+.iconImage {
+    height: 120px;
+    width: 120px;
+    padding-bottom: 15px;
+    object-fit: contain;
+}
+.cardContainer{
+    height: 150px;
+    padding: 15px;
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: column; */
+    width: 120px;
+    border: none;
+    background-color: transparent;
+}
+.carousel {
+    width: min-content;
+}
+*,
+*::after,
+*::before {
+    box-sizing: content-box !important;
+}
+span.iconName {
+    margin: auto;
+    padding-top: 13px;
+}
+
+
+.right{
+    color: inherit;
+    font-weight: bolder;
+    font-size: 29px;
+    padding-bottom: 4px;
+    padding-left: 65px;
+}
+.Left {
+    color: inherit;
+    font-weight: bolder;
+    font-size: 29px;
+    padding-bottom: 4px;
+    padding-right: 65px;
+}
