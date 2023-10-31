@@ -1,0 +1,59 @@
+.projectCard{
+    display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 15px;
+        border: 4px solid #8080806b;
+        height: 400px;
+        width: 320px;
+        border-radius: 8px;
+        cursor: pointer;
+}
+.projectHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 12px;
+}
+.projectLine{
+    border: 2px solid #8080806b;
+    height: 0px;
+    width: 100%;
+}
+.projectSkill {
+    height: 19px;
+    width: 21px;
+}
+.projectTechContainer{
+    padding: 5px;
+        border: 1px solid #8080806b;
+        border-radius: 8px
+}
+.projectTech{
+    display: flex;
+        justify-content:flex-start;
+        gap: 5px;
+}
+.projectHeading{
+        font-size: 70px;
+        font-weight: bolder;
+        margin: 0 15px;
+        text-align: center;
+        padding: 90px 0 30px;
+    }
+
+.projectCardContainer {
+    margin: 20px 73px;
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    
+}
+.projectCard:hover{
+        background-color: #7433fb29;
+        transform: scale(1.04);
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+.projectCard{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, transform 0.3s;
+}

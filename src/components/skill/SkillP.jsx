@@ -1,11 +1,12 @@
+/* eslint-disable react/prop-types */
 import "./skillStyles.css";
-const SkillP = () => {
+const SkillP = ({ skill, address }) => {
   return (
     <div>
       <div className="card">
-        <div className="skill">TypeScript</div>
+        <div className="skill">{skill}</div>
         <div className="skillImageContainer">
-          <img src="./typescript.png" className="skillImage" />
+          <img src={address} className="skillImage" />
         </div>
       </div>
     </div>

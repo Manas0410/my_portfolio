@@ -1,23 +1,15 @@
 import ReactDOM from "react-dom/client";
-import HeaderP from "./header/headerP.jsx";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import HomePageContent from "./components/homePage/HomePageContent.jsx";
-import SkillCarousel from "./components/homePage/SkillCarousel.jsx";
-import SkillP from "./components/skill/SkillP.jsx";
+import PortFolio from "./PortFolio.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: (
-      <div>
-        <HeaderP />
-        <HomePageContent />
-      </div>
-    ),
+    element: <PortFolio />,
   },
   {
     path: "/test",
-    element: <SkillP />,
+    element: <PortFolio />,
   },
 ]);
 

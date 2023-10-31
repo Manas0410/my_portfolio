@@ -42,3 +42,7 @@ span.iconName {
     padding-bottom: 4px;
     padding-right: 65px;
 }
+.carousel-control-next,
+.carousel-control-prev{
+    color: inherit !important;
+}
