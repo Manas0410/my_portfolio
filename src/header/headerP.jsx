@@ -32,7 +32,7 @@ const HeaderP = ({ setPageFlag, pageFlag }) => {
     }
   }, [darkTheme]);
   return (
-    <div>
+    <div className={darkTheme ? "darkheader" : "lightheader"}>
       <div className="headerContainer">
         <div
           onClick={() => {

@@ -1,6 +1,6 @@
 .card{
-        height: 81px;
-            width: 430px;
+        height: 72px;
+            width: 375px;
             border-radius: 11px;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@ text-align: center;}
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-left: 73px;
+    margin: 0 73px;
 }
 .card:hover{
     transform: scale(1.04);

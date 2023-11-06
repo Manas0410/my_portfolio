@@ -46,7 +46,8 @@
     display: flex;
     gap: 45px;
     flex-wrap: wrap;
-    
+    align-items: center;
+        justify-content: center;
 }
 .projectCard:hover{
         background-color: #7433fb29;

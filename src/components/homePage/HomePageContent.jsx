@@ -6,7 +6,7 @@ const HomePageContent = () => {
     <div className="homeContainer">
       <div className="leftSection">
         <div>
-          <h1 className="name">MANAS SRIVASTAVA</h1>
+          <h1 className="my-name">MANAS SRIVASTAVA</h1>
           <h3 className="title">Front-end developer</h3>
         </div>
         <div>
