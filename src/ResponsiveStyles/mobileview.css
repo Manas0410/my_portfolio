@@ -1,9 +1,24 @@
-@media only screen and (max-width:768px){
-    .headerContainer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 10px;
-            gap: 0
-    }
+@media only screen and (max-width: 768px) {
+  .headerContainer {
+    margin: 0 6px !important;
+  }
+  .homeContainer {
+    flex-direction: column !important;
+    padding-top: 220px !important;
+    padding-bottom: 60px !important;
+    gap: 20px !important;
+  }
+  .leftSection {
+    flex: 6;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .contacts {
+    margin: 8px 0 !important;
+  }
+  .my-name, .title, .about{
+    text-align: center;
+  }
 }

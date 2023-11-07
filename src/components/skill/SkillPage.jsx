@@ -54,14 +54,14 @@ const SkillPage = () => {
     <div>
       <h1 className="projectHeading">SKILLS</h1>
       <h2 className="skillTypeHeading">FRONT-END SKILS</h2>
-      <div className="skillContainerBox">
+      <div className="skillContainerBox" id="skillContainerBoxId">
         {Fskill.map((item, i) => (
           <SkillP skill={item.skill} address={item.address} key={i} />
         ))}
       </div>
       <h2 className="skillTypeHeading">BACK-END SKILS</h2>
 
-      <div className="skillContainerBox">
+      <div className="skillContainerBox" id="skillContainerBoxId">
         {Bskill.map((item, i) => (
           <SkillP skill={item.skill} address={item.address} key={i} />
         ))}

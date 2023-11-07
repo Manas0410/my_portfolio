@@ -1,7 +1,7 @@
 import "./CarouselStyle.css";
 const SkillCarousel = () => {
   return (
-    <div style={{ height: "100vh", display: "grid", placeItems: "center" }}>
+    <div style={{ display: "grid", placeItems: "center" }}>
       <div
         id="carouselExampleControls"
         className="carousel slide"

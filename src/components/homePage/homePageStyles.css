@@ -1,10 +1,10 @@
 .homeContainer {
-    display: flex;
     margin: 0px 73px;
-    height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    height: 465px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 125px;
 }
 h1.my-name {
     font-size: 70px;
@@ -28,3 +28,21 @@ h3.title {
     width: 50px;
     margin: 0;
 }
+ .linkicon {
+     padding: 2px;
+     background-color: white;
+     display: inline-flex;
+     border-radius: 6px;
+}
+.socialLinks {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.contacts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+        margin: 18px 0;
+        }
