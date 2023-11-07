@@ -1,38 +1,38 @@
-@media only screen and (min-width:760px)and (max-width:1200px){
-    #skillContainerBoxId {
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            margin: 0 50px;
-        }
-        .card {
-            height: 72px !important;
-                width: 315px !important;
-        }
-        .leftSection {
-            flex: 6;
-            display: flex !important;
-            flex-direction: column !important;
-            justify-content: center !important;
-            align-items: center !important;
-            gap: 20px;
-        }
-    
-        .contacts {
-            margin: 8px 0 !important;
-        }
-    
-        .my-name,
-        .title,
-        .about {
-            text-align: center;
-            padding: 0 55px;
-        }
-        .homeContainer{
-            padding-top: 280px !important;
-            gap: 35px !important;
-        }
-        .projectHeading{
-            margin-top: 60px;
-        }
+@media only screen and (min-width: 760px) and (max-width: 1200px) {
+  #skillContainerBoxId {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 50px;
+  }
+  .card {
+    height: 72px !important;
+    width: 315px !important;
+  }
+  .leftSection {
+    flex: 6;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px;
+  }
+
+  .contacts {
+    margin: 8px 0 !important;
+  }
+
+  .my-name,
+  .title,
+  .about {
+    text-align: center;
+    padding: 0 55px;
+  }
+  .homeContainer {
+    padding-top: 280px !important;
+    gap: 35px !important;
+  }
+  .projectHeading {
+    margin-top: 60px;
+  }
 }
