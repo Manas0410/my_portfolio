@@ -35,4 +35,21 @@
   .projectHeading {
     margin-top: 60px;
   }
+  .hiddenExpLine {
+    display: none !important;
+  }
+  .hiddenExp {
+    display: none !important;
+  }
+  .projectTech {
+    flex-wrap: wrap;
+  }
+  .expPageContainer {
+    padding: 0 11px;
+  }
+  .expcardContainer {
+    margin-bottom: 35px !important;
+    height: 314px !important;
+    width: 581px !important;
+  }
 }
