@@ -61,4 +61,8 @@
 
     text-align: center !important;
   }
+  .headerContainer {
+    justify-content: center !important;
+    gap: 10% !important;
+  }
 }
