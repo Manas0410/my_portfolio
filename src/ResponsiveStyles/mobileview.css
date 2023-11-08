@@ -4,9 +4,8 @@
   }
   .homeContainer {
     flex-direction: column !important;
-    padding-top: 220px !important;
-    padding-bottom: 60px !important;
     gap: 20px !important;
+    height: auto !important;
   }
   .leftSection {
     flex: 6;
@@ -14,11 +13,52 @@
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+    gap: 6px;
   }
   .contacts {
     margin: 8px 0 !important;
   }
-  .my-name, .title, .about{
+  .my-name,
+  .title,
+  .about {
     text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+  .projectHeading {
+    font-size: 250% !important;
+  }
+  .skillContainerBox {
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 25px !important;
+  }
+  .hiddenExpLine {
+    display: none !important;
+  }
+  .hiddenExp {
+    display: none !important;
+  }
+  h1.my-name {
+    font-size: 300% !important;
+  }
+  .card {
+    height: 72px !important;
+  }
+  .projectTech {
+    flex-wrap: wrap;
+  }
+  .expPageContainer {
+    padding: 0 11px;
+  }
+  .expcardContainer {
+    margin-bottom: 35px !important;
+    height: 460px !important;
+    width: 100%;
+  }
+  .skillTypeHeading {
+    margin-left: 0 !important;
+
+    text-align: center !important;
   }
 }

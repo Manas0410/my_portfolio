@@ -13,7 +13,7 @@ const ProjectPage = () => {
       name: "React Shopping App",
       link: "https://stupendous-creponne-3d7cd2.netlify.app/",
       about:
-        "The application implements features such as infinite scrolling, pagination, error boundaries, Redux integration, synchronized data management, asynchronous data fetching, and optimized performance using various React hooks and libraries. These enhancements provide a smooth and stable browsing experience for users, allowing them to search for products, add items to their cart, and navigate through the application seamlessly.",
+        "The app offers infinite scrolling, pagination, error handling, Redux integration, data synchronization, async data fetching, and optimized performance. These features create a smooth user experience for product search, cart management, and navigation",
       tech: [
         "./React-icon.svg.png",
         "./html.png",
